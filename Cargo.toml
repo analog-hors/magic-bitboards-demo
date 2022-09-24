@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "magic-gen",
+    "magic-demo"
+]

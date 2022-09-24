@@ -1,0 +1,10 @@
+[package]
+name = "magic-gen"
+version = "0.1.0"
+authors = ["analog-hors <44050761+analog-hors@users.noreply.github.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+types = { path = "../types" }

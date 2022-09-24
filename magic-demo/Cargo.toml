@@ -1,0 +1,14 @@
+[package]
+name = "magic-demo"
+version = "0.1.0"
+authors = ["analog-hors <44050761+analog-hors@users.noreply.github.com>"]
+edition = "2021"
+build = "build/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+types = { path = "../types" }
+
+[build-dependencies]
+types = { path = "../types" }
